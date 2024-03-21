@@ -1,2 +1,13 @@
 Tabella: auto
 
+id_auto: SMALLINT, PK
+marca: VARCHAR(25), NOT NULL
+modello: VARCHAR(50), NULL
+alimentazione: VARCHAR(15), NOT NULL
+cambio: VARCHAR(10), NOT NULL
+carrozzeria (city car, SUV...): VARCHAR(15), NULL
+km: MEDIUMINT, NOT NULL
+prezzo: MEDIUMINT, NOT NULL
+usato (si, no): TINYINT, NOT NULL
+nuovo (si, no): TINYINT, NOT NULL
+colore: VARCHAR(12), NULL
