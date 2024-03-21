@@ -11,3 +11,9 @@ prezzo: MEDIUMINT, NOT NULL
 usato (si, no): TINYINT, NOT NULL
 nuovo (si, no): TINYINT, NOT NULL
 colore: VARCHAR(12), NULL
+promozione: TINYINT, NOT NULL
+porte: TINYINT, NOT NULL
+posti: TINYINT, NOT NULL
+cilindrata: SMALLINT, NOT NULL
+potenza: SMALLINT, NOT NULL
+classe-emissioni: VARCHAR(15), NULL
